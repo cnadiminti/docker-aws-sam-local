@@ -31,7 +31,7 @@ For a working example please take a look at the [Makefile](https://github.com/cn
 
 ## License
 
-- [Amazon AWS SAM Local License Agreement](https://github.com/awslabs/aws-sam-local/blob/develop/LICENSE)
+- [Amazon AWS SAM Local License Agreement](https://github.com/awslabs/aws-sam-local/blob/master/LICENSE)
 
 
 ## User Feedback
