@@ -15,8 +15,6 @@ This is the source repository of the [Docker image](https://hub.docker.com/r/cna
 
 ## How to use this image?
 
-### Start a DynamoDB Local instance
-
 ```console
 $ docker run -it --rm \
 	-v /var/run/docker.sock:/var/run/docker.sock \
