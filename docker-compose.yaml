@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  aws-sam-local:
+    image: cnadiminti/aws-sam-local
+    command: local start-api --docker-volume-basedir "$PWD/example" --host 0.0.0.0
+    ports:
+      - '3000:3000'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./example:/var/opt

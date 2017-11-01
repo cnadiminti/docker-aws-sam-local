@@ -27,7 +27,7 @@ $ docker run -it --rm \
 
 This will add your current directory as a volume to the container and publish host port to container port.
 
-For a working example please take a look at the [Makefile](https://github.com/cnadiminti/docker-aws-sam-local/blob/master/Makefile) in the source repository.
+For working examples please take a look at the [`Makefile`](https://github.com/cnadiminti/docker-aws-sam-local/blob/master/Makefile) and [`docker-compose.yaml`](https://github.com/cnadiminti/docker-aws-sam-local/blob/master/docker-compose.yaml) files in the source repository. Note that `PWD` above should resolve to a path on the host (the machine running Docker), not something within a Docker container.
 
 ## License
 
