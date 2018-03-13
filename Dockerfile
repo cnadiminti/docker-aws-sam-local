@@ -1,6 +1,7 @@
 FROM alpine:3.6
 
-ENV VERSION=0.2.2
+ARG VERSION=0.2.8
+ENV VERSION=$VERSION
 
 RUN apk add --no-cache curl && \
     curl -sSLO https://github.com/awslabs/aws-sam-local/releases/download/v${VERSION}/sam_${VERSION}_linux_386.tar.gz && \
