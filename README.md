@@ -18,7 +18,7 @@ This is the source repository of the [Docker image](https://hub.docker.com/r/cna
 ```console
 $ docker run -it --rm \
 	-v /var/run/docker.sock:/var/run/docker.sock \
-	-v "$(PWD)":/var/opt \
+	-v "$(pwd)":/var/opt \
 	-p "3000:3000" \
 	cnadiminti/aws-sam-local
 
